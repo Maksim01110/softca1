@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="521.0" prefWidth="369.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.car_park.ParkingAppController">
+   <children>
+      <TextField fx:id="txt_DriverName" layoutX="110.0" layoutY="210.0" promptText="Driver name" />
+      <TextField fx:id="txt_LiscencePlate" layoutX="109.0" layoutY="131.0" promptText="Liscence plate" />
+      <ComboBox fx:id="SpaceComboBox" layoutX="109.0" layoutY="305.0" prefWidth="150.0" promptText="Select a space" visibleRowCount="5" />
+      <Label fx:id="ConfirmationLabel" layoutX="84.0" layoutY="33.0" prefHeight="66.0" prefWidth="199.0" text="Label" />
+      <Button fx:id="btn_Reserve" layoutX="159.0" layoutY="397.0" mnemonicParsing="false" onAction="#Reservation" text="Reserve" />
+   </children>
+</AnchorPane>
